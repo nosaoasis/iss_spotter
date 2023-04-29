@@ -1,4 +1,5 @@
-const request = require("request");
+// const request = require("request");
+const request = require('request-promise-native');
 /**
  * Makes a single API request to retrieve the user's IP address.
  * Input:
